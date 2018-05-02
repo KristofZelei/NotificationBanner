@@ -54,7 +54,7 @@ public class BaseNotificationBanner: UIView {
     public internal(set) var titleLabel: MarqueeLabel?
     
     /// The time before the notificaiton is automatically dismissed
-    public var duration: TimeInterval = 5.0 {
+    public var duration: TimeInterval = 3.0 {
         didSet {
             updateMarqueeLabelsDurations()
         }
